@@ -3,20 +3,53 @@
 
 <head>
     <style>
-        p {
+        .on {
             border: 2px solid black;
             padding: 20px;
             margin: auto;
             text-align: center;
             outline: lightgreen solid 10px;
+        }
 
+        .one {
+            border: 1px solid black;
+            outline: red solid 3px;
+
+        }
+
+        .three {
+            border: 1px solid black;
+            outline: green double;
+        }
+
+        .four {
+            border: 1px solid black;
+            outline: yellow outset;
+        }
+
+        .five {
+            border: 1px solid yellow;
+            outline-style: solid;
+            outline-color: invert;
+        }
+
+        .eight {
+            border: 1px solid black;
+            outline-offset: 15px;
+            outline: 1px solid red;
+            margin: 30px;
         }
     </style>
 </head>
 
 <body>
 
-    <p>This element has a 2px black border and a green outline with a width of 10px.</p>
+    <p class="on">This element has a 2px black border and a green outline with a width of 10px.</p><br>
+    <p class="one">A solid red color</p>
+    <p class="three">A double green outline.</p>
+    <p class="four">An outset yellow outline.</p>
+    <p class="five">a solid invert outline.</p>
+    <p class="eight">This paragraph has an outline 15px outside the border edge.</p>
 </body>
 
 </html>
