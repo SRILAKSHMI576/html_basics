@@ -3,22 +3,44 @@
 
 <head>
     <style>
-        body {
-            background-image: url("images.jpg");
-            background-repeat: no-repeat;
+        .dropdown {
+            position: relative;
+            display: inline-block;
         }
 
-        p {
-            border: 5px solid grey;
-            width: 320px;
-            padding: 10px;
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .desc {
+            padding: 15px;
+            text-align: center;
         }
     </style>
 </head>
 
 <body>
-    <h1> calculate the total width:</h1>
-    <p>The picture above is 350px wide. The total width of this element is also 350px.</p>
+
+    <h2>Dropdown Image</h2>
+    <p>Move the mouse over the image below to open the dropdown content.</p>
+
+    <div class="dropdown">
+        <img src="images.jpg" width="100" height="50">
+        <div class="dropdown-content">
+            <img src="images.jpg" width="300" height="200">
+            <div class="desc">Beautiful Cinque Terre</div>
+        </div>
+    </div>
+
 </body>
 
 </html>
