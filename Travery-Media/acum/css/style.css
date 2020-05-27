@@ -1,0 +1,27 @@
+header, section{
+	background: #35424a;
+	width: 100%
+}
+
+header h1 p{
+	color: #e8491d;
+	font-weight: bold;
+	font-size: 30px;
+	font-style: Arial, Helvetica, sans-serif;
+}
+
+header h1 {
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+	font-style: Arial, Helvetica, sans-serif;
+}
+
+ul a{
+	text-decoration: none;
+	color: white;
+}
+
+ul a:active{
+	color: #e8491d;
+}
