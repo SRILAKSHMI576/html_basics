@@ -128,3 +128,22 @@ footer {
 	text-align: center;
 	color: #ffffff;
 }
+
+.dark {
+	background: #35424a;
+	padding: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #ffffff;
+}
+
+aside#sidebar {
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+
+article#main-col {
+	float: left;
+	width: 65%;
+}
