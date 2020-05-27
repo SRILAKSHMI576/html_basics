@@ -147,3 +147,26 @@ article#main-col {
 	float: left;
 	width: 65%;
 }
+
+.box-model{
+	background: #cccccc;
+	padding: 20px;
+	margin-top: 5px;
+	border: 2px solid lightgrey
+}
+
+.fields input {
+	padding: 4px;
+	width: 250px;
+	height: 20px;
+}
+
+.fields button{
+	background: #e8491d;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 0;
+	height: 38px;
+	color: #ffffff;
+	margin-top: 10px;
+}
